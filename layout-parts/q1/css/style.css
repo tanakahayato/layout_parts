@@ -1,31 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.contents{
-  background-color:#eff3f4;
-  width:900px;
+.contents {
+  background-color: #eff3f4;
+  width: 900px;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
 }
-.contents__inner:first-child{
+
+.contents__inner:first-child {
   margin-left: 0 ;
 }
-.contents__inner{
-  background-color:#3274ae;
-  width:270px;
-  padding:20px;
-  float:left;
-  margin-left:20px;
+
+.contents__inner {
+  background-color: #3274ae;
+  width: 270px;
+  padding: 20px;
+  float: left;
+  margin-left: 20px;
   box-sizing: border-box;
 }
-.contents__inner__box{
-  background-color:#eaf4ff;
-  padding:20px;
-  border:10px solid #022336;
+
+.contents__inner__box {
+  background-color: #eaf4ff;
+  padding: 20px;
+  border: 10px solid #022336;
   box-sizing: content-box;
-}
-.p{
-  line-height:16px;
-  font-size:16px;
+  line-height: 16px;
+  font-size: 16px;
 }
 /* 回答はここに書いてね */
