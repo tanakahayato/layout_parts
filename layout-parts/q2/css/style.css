@@ -8,8 +8,8 @@
   background-color: #eff3f4;
 }
 
-.contents__inner{
-   clear: both;
+.contents__inner {
+  clear: both;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
   word-break: break-all;
 }
 
-.imgleft{
+.imgleft {
   margin: 0 20px 10px 0;
   padding: 0;
   float: left;

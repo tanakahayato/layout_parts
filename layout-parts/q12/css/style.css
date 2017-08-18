@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.balloon{
+.balloon {
   position: relative;
   width: 500px;
   padding: 20px;
@@ -11,13 +11,12 @@
   border-radius: 30px;
 }
 
-.q12__text{
+.q12__text {
   font-size: 16px;
   line-height: 16px;
 }
 
-.balloon:before,
-.balloon:after {
+.balloon:before,.balloon:after {
   position: absolute;
   left: 10%;
   border: solid transparent;
@@ -30,21 +29,13 @@
 
 .balloon:before {
   bottom: -50px;
-  border-top-color: #000000;
+  margin-left: -14px;
+  border-top-color: #000;
 }
 
 .balloon:after {
   bottom: -43px;
-  border-top-color: #FFFFFF;
-}
-
-.balloon:before {
-  border-top-color: #000000;
-  margin-left: -14px;
-}
-.balloon:after {
-  border-top-color: #FFFFFF;
   margin: -5px 0 0 -14px;
+  border-top-color: #fff;
 }
-
 /* 回答はここに書いてね */

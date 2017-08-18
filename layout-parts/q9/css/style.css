@@ -1,69 +1,70 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q9__container{
+.q9__container {
   background-color: #ecf1f2;
   padding: 20px;
   display: grid;
   grid-gap: 20px;
 }
 
-.item{
+.item {
   background: #fff;
   padding: 10px;
   border: 9px solid #fff;
   text-align: center;
 }
 
-.grid__12{
+.grid__12 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1.2fr;
   grid-template-rows: 50px;
 }
 
-.grid__6{
+.grid__6 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 0.6fr 0.6fr;
   grid-template-rows: 50px;
 }
 
-.grid__4{
+.grid__4 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 0.4fr 0.4fr 0.4fr;
   grid-template-rows: 50px;
 }
 
-.grid__3{
+.grid__3 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr;
   grid-template-rows: 50px;
 }
 
-.grid__24{
+.grid__24 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 0.24fr 0.24fr 0.24fr 0.24fr 0.24fr;
   grid-template-rows: 50px;
 }
 
-.grid__2{
+.grid__2 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
   grid-template-rows: 50px;
 }
 
-.grid__633{
+.grid__633 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 0.63fr 0.3fr 0.3fr;
   grid-template-rows: 50px;
 }
-.grid__2244{
+
+.grid__2244 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 0.2fr 0.2fr 0.4fr 0.4fr;

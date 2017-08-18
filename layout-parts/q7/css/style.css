@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7{
+.q7 {
   font-size: 0;
   text-align: center;
 }
 
-.q7__box{
+.q7__box {
   display: inline-block;
   margin: 10px;
   font-size: 16px;
@@ -27,33 +27,35 @@
 
 .q7__txt{
   padding: 5px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
 }
+
+.q7__txt:focus { box-shadow: 0 0 7px #00bcd4; }
 
 .q7__txt::-webkit-input-placeholder{
   color: #00bcd4;
 }
 
-.q7__textarea{
+.q7__textarea {
   height: 40px;
   padding: 5px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
-  resize: none
+  resize: none;
 }
 
-.q7__radio__btn{
+.q7__radio__btn {
   display: none;
 }
 
-.q7__radio__txt{
+.q7__radio__txt {
   position: relative;
   display: inline-block;
-  padding: 3px 3px 3px 20px
+  padding: 3px 3px 3px 20px;
 }
 
-.q7__radio__txt:before{
+.q7__radio__txt:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -72,7 +74,7 @@
   width: 8px;
   height: 8px;
   margin-top: -4px;
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   border-radius: 50%;
   content: '';
 }
@@ -95,7 +97,7 @@
   border: 1px solid #ccc;
 }
 
-.q7__check__btn{
+.q7__check__btn {
   display: none;
 }
 
@@ -106,18 +108,20 @@
   left: 3px;
   width: 13px;
   height: 5px;
-  border-bottom: 2px solid #00BCD4;
-  border-left: 2px solid #00BCD4;
+  border-bottom: 2px solid #00bcd4;
+  border-left: 2px solid #00bcd4;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
-.q7__select{
+
+
+.q7__select {
   position: relative;
   background-color: #fff;
 }
 
-.q7__select:before{
+.q7__select:before {
   position: absolute;
   top: 7px;
   right: 9px;
@@ -130,7 +134,7 @@
   content: "";
 }
 
-.q7__select__item{
+.q7__select__item {
   position: relative;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -138,13 +142,13 @@
   font-size: 14px;
 }
 
-.q7__btn{
+.q7__btn {
   padding: 5px 10px;
   border: 1px solid #00bcd4;
   border-radius: 5px;
   color: #00bcd4;
 }
-.q7__btn:active{
+.q7__btn:active {
   background-color: #00bcd4;
   color: #fff;
 }
